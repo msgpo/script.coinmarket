@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.coinmarket" name="Coin Market" version="1.0.0" provider-name="ptom">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py"> 
+     <provides>executable</provides> 
+  </extension> 
+  <extension point="xbmc.service" library="service.py" />
+  <extension point="xbmc.addon.metadata">
+	<summary>Cryptocurrency Pricing and Market Cap Rankings for Kodi</summary>
+	<description>Now you can track the price of Bitcoin, Ethereum, Ripple, Litecoin and all the other cryptocurrencies directly from your television! This nifty Kodi addon also allows you to set alerts that will notify you when your selected cryptocurrency hits a predetermined price point.</description>
+    <platform>all</platform>
+    <language>en</language>
+    <forum>https://www.tvaddons.co/forums/</forum>
+	<website>https://www.tvaddons.co/</website>
+    <email>ptom98@gmail.com</email>
+  </extension>
+</addon>
